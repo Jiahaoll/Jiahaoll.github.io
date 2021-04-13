@@ -8,7 +8,7 @@
       <link href="2021/04/13/%E7%89%A9%E7%90%86%E6%9D%82%E8%AE%B0/"/>
       <url>2021/04/13/%E7%89%A9%E7%90%86%E6%9D%82%E8%AE%B0/</url>
       
-        <content type="html"><![CDATA[<h4 id="物理杂记"><a href="#物理杂记" class="headerlink" title="物理杂记"></a>物理杂记</h4><p>当碰撞介于完全弹性碰撞与完全非弹性碰撞之间时</p><p>引入恢复系数：<br>$$<br>e=\cfrac{v_2-v_1}{v_{10}-v_{20}}<br>$$</p>]]></content>
+        <content type="html"><![CDATA[<h4 id="title-物理杂记"><a href="#title-物理杂记" class="headerlink" title="title:物理杂记"></a>title:物理杂记</h4><p>当碰撞介于完全弹性碰撞与完全非弹性碰撞之间时</p><p>引入恢复系数：</p><script type="math/tex; mode=display">e=\cfrac{v_2-v_1}{v_{10}-v_{20}}</script><p>comments: true</p><p>mathjax: true</p>]]></content>
       
       
       
