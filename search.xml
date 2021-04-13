@@ -4,11 +4,50 @@
   
     
     <entry>
+      <title></title>
+      <link href="2021/04/13/%E7%89%A9%E7%90%86%E6%9D%82%E8%AE%B0/"/>
+      <url>2021/04/13/%E7%89%A9%E7%90%86%E6%9D%82%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h4 id="物理杂记"><a href="#物理杂记" class="headerlink" title="物理杂记"></a>物理杂记</h4><p>当碰撞介于完全弹性碰撞与完全非弹性碰撞之间时</p><p>引入恢复系数：<br>$$<br>e=\cfrac{v_2-v_1}{v_{10}-v_{20}}<br>$$</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="2021/04/06/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA%EF%BC%9A/"/>
+      <url>2021/04/06/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA%EF%BC%9A/</url>
+      
+        <content type="html"><![CDATA[<h5 id="狭义相对论："><a href="#狭义相对论：" class="headerlink" title="狭义相对论："></a>狭义相对论：</h5><p>变化公式：<br>$$<br>x = Dx’+Et’</p><p>\t = Fx’+Gt’<br>$$<br>有<br>$$<br>vt = D(0)+Et’\t = F(0)+Gt’<br>$$<br>可导出<br>$$<br>v= E/G<br>$$<br>引入正向光束:<br>$$<br>x = ct \x’ = ct’<br>$$<br>代入变化公式，可得</p><p>$$<br>ct = (Dc+E)t’\t = (Fc+G)t’<br>$$<br>相除得<br>$$<br>c = (Dc+E)/(Fc+G)<br>$$<br>整理得<br>$$<br>Fc^2+(G-D)c-E=0<br>$$<br>反向光束同理可得<br>$$<br>-Fc^2+(G-D)c+E=0<br>$$<br>相比可得<br>$$<br>Fc^2=E \ D=G<br>$$<br>位置经二次变化后不变，可得<br>$$<br>DG-EF=1（数学证明？）<br>$$<br>最终解得<br>$$<br>\begin{cases}<br>D = \cfrac{1}{\sqrt{1-\cfrac{v^2}{c^2}}}<br>\G = \cfrac{1}{\sqrt{1-\cfrac{v^2}{c^2}}}<br>\F = \cfrac { \cfrac {v}{c}}{ \sqrt {c^2-v^2}}<br>\E = \cfrac {v} {\sqrt {1- \cfrac {v^2}{c^2}}}<br>\end{cases}<br>$$<br>记作矩阵形式：<br>$$<br>\begin{pmatrix} x \ t \end{pmatrix}<br>=\begin{pmatrix}D \  E\F \ G\end{pmatrix}<br>\begin{pmatrix}x’ \ t’\end{pmatrix}<br>$$</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="2021/03/08/%E8%BF%91%E4%B8%96%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%96%87%E5%8C%96/"/>
+      <url>2021/03/08/%E8%BF%91%E4%B8%96%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%96%87%E5%8C%96/</url>
+      
+        <content type="html"><![CDATA[<ul><li><h2 id="天命与礼乐"><a href="#天命与礼乐" class="headerlink" title="天命与礼乐"></a>天命与礼乐</h2><h3 id="神鼎"><a href="#神鼎" class="headerlink" title="神鼎"></a>神鼎</h3><p>广泛性、象征性、神圣性、合法性、可变性</p><p>鼎迁=&gt;革命；问鼎</p><h3 id="轴心突破"><a href="#轴心突破" class="headerlink" title="轴心突破"></a>轴心突破</h3><p>对“道”的追求—宋明理学—得道</p><p>道义高于皇权</p><p>对道义的追求，超脱了个人崇拜</p><p>追求“天人合一”</p><p>文明中脱离日常生活的特点（怪怪的？）</p><p>以巫师、神官等为媒介（印度：勿cue），对通灵、灵媒的强调，达到政教合一的情况</p><p>但中国很早便告别了这种状态，西周便已不强调，更强调仪式（生活要有仪式感。。错乱）</p><p>（联想：万历十五年中申时行强调经筵，强调礼仪道德，知晓大同之治来源于道德感）</p><p><img src="C:\Users\Vollmond\AppData\Roaming\Typora\typora-user-images\image-20210308184958136.png" alt="image-20210308184958136"></p></li><li><h2 id="集权与统一"><a href="#集权与统一" class="headerlink" title="集权与统一"></a>集权与统一</h2><p>（秦朝完成）</p><p>秦生“皇帝”一词，一统度量衡，统一文字，从此中国大部分时间得以统一</p></li><li><h2 id="合法性的寻求"><a href="#合法性的寻求" class="headerlink" title="合法性的寻求"></a>合法性的寻求</h2><p>（汉代完成）</p><p>“天地之大德曰生，圣人之大宝曰位。何以守位？曰仁。何以聚人？曰财。理财正辞，禁民为非，曰义”——《周易》</p><p>仁：恻隐之心</p><p>“天人感应”论——董仲舒</p><h6 id="行德、教化、学校、荐举-实现长治久安"><a href="#行德、教化、学校、荐举-实现长治久安" class="headerlink" title="行德、教化、学校、荐举    实现长治久安"></a>行德、教化、学校、荐举    实现长治久安</h6><h6 id="后果："><a href="#后果：" class="headerlink" title="后果："></a>后果：</h6><p>对统治者道德要求高，在管理层扩大后难以达成共识（对道德保留基础要求的、不顾道德要求的、有极高道德追求的）</p><p>可由今日中国对公众人物道德要求极高的强烈诉求可见</p><p>（联想：张居正死后被清算）</p></li><li><h2 id="古代中国的演进动力"><a href="#古代中国的演进动力" class="headerlink" title="古代中国的演进动力"></a>古代中国的演进动力</h2><p>政治经济模式的成熟与拓展</p></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>十年一朝夕</title>
       <link href="2021/02/18/hello-world/"/>
       <url>2021/02/18/hello-world/</url>
       
-        <content type="html"><![CDATA[<p> 愿十年之后，能无愧于今日之一朝一夕</p><h2 id="碎碎念ver-1（我会更新吗？不可能吧"><a href="#碎碎念ver-1（我会更新吗？不可能吧" class="headerlink" title="碎碎念ver.1（我会更新吗？不可能吧=="></a>碎碎念ver.1（我会更新吗？不可能吧==</h2><p>写下这些</p><p>写给偶然经过的来客</p><p>也写给自己</p><h3 id="为了看起来有点条理的标题一"><a href="#为了看起来有点条理的标题一" class="headerlink" title="为了看起来有点条理的标题一"></a>为了看起来有点条理的标题一</h3><p>有朋自远方来，不亦说乎</p><p>虽无美酒，亦无明月</p><p>仍希望来客能在我的这片小世界寻得一丝乐趣，一丝感悟</p><p>若能令君感到此段光阴并非虚度</p><p>那便是再好不过</p><h3 id="既然有一就必须有二的标题二"><a href="#既然有一就必须有二的标题二" class="headerlink" title="既然有一就必须有二的标题二"></a>既然有一就必须有二的标题二</h3><p>今人不见古时月，今月曾经照古人</p><p>逝者如斯，这又如何？</p><p>对酒当歌，明月长照，足矣</p><p>若是没有？</p><p>无妨，大千世界，总当有一番归处</p><h3 id="想不出但还是写下去的标题三"><a href="#想不出但还是写下去的标题三" class="headerlink" title="想不出但还是写下去的标题三"></a>想不出但还是写下去的标题三</h3><p>“你肚子饿不饿？我煮碗面给你吃好不好？”</p><p>人生在世三万天，最后难免囿于昼夜厨房与爱</p><p>有多久没让双眼离开屏幕，同家人闲谈了？</p><p>有多久没欣赏过路旁的风景了？</p><h3 id="为了把队伍排整齐点的标题四"><a href="#为了把队伍排整齐点的标题四" class="headerlink" title="为了把队伍排整齐点的标题四"></a>为了把队伍排整齐点的标题四</h3><p>呐到了这儿逗逼本质还是暴露了呢。。。</p><p>我本来就不是文青啊kora！</p><p>真的会有人看我的blog吗orz</p><p>绝对会被嫌弃的吧。。。</p><p>愿赔一曲水龙吟，杯酒莫嫌轻</p><p>The latest edit：18.2</p>]]></content>
+        <content type="html"><![CDATA[<p>杯酒不嫌轻</p><p>The latest edit：18.2</p>]]></content>
       
       
       
