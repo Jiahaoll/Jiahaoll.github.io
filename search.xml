@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>物理杂记</title>
-      <link href="2021/04/13/%E7%89%A9%E7%90%86%E6%9D%82%E8%AE%B0-1/"/>
-      <url>2021/04/13/%E7%89%A9%E7%90%86%E6%9D%82%E8%AE%B0-1/</url>
+      <title>微分方程</title>
+      <link href="2021/04/13/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B1/"/>
+      <url>2021/04/13/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B1/</url>
       
-        <content type="html"><![CDATA[<p>当碰撞介于完全弹性碰撞与完全非弹性碰撞之间时</p><p>引入恢复系数：</p><script type="math/tex; mode=display">e=\cfrac{v_2-v_1}{v_{10}-v_{20}}</script><p>复摆：</p><script type="math/tex; mode=display">\omega =\sqrt{\frac{mgh}{J}}</script><p>​    其中J为转动惯量，h为质心到复摆转轴的距离</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="微分方程："><a href="#微分方程：" class="headerlink" title="微分方程："></a>微分方程：</h2><h5 id="常微分方程："><a href="#常微分方程：" class="headerlink" title="常微分方程："></a>常微分方程：</h5><p>定义：</p><script type="math/tex; mode=display">f(y,\frac{dy}{dx},\frac{d^2y}{dx^2},...,\frac{d^ny}{dx^n})=0</script><h6 id="常系数线性微分方程："><a href="#常系数线性微分方程：" class="headerlink" title="常系数线性微分方程："></a>常系数线性微分方程：</h6><script type="math/tex; mode=display">\frac{d^ny}{dx^n}+a_1\frac{d^{n-1}y}{dx^{n-1}}+a_2\frac{d^{n-2}y}{dx^{n-2}}+...+a_ny=0</script><p>解一阶线性常微分方程：</p><script type="math/tex; mode=display">对\frac{dy}{dx}+p(x)y+q(x)=0\\通解:y=C(x)e^{-\int p(x){\rm d}x}</script><p>代回原式可解</p><p>解二阶常系数齐次微分方程：</p><script type="math/tex; mode=display">对y^{''}+py^{'}+qy=0\\通解:y=c_1y_1+c_2y_2\\特征方程:r^2+pr+q=0\\若r_1=r_2\\则y=(C_1+C_2x)e^{rx}\\若r1\neq r2\\则y=C_1e^{r_1x}+C_2e^{r_2x}\\若为共轭复数根\\则y=e^{\alpha x}(C_1cos(\beta x)+C_2sin(\beta x)),其中r=\alpha \pm \beta i</script>]]></content>
       
       
       
@@ -42,11 +42,11 @@
     
     
     <entry>
-      <title>微分方程</title>
-      <link href="2021/04/13/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B1/"/>
-      <url>2021/04/13/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B1/</url>
+      <title>物理杂记</title>
+      <link href="2021/04/13/%E7%89%A9%E7%90%86%E6%9D%82%E8%AE%B0-1/"/>
+      <url>2021/04/13/%E7%89%A9%E7%90%86%E6%9D%82%E8%AE%B0-1/</url>
       
-        <content type="html"><![CDATA[<h2 id="微分方程："><a href="#微分方程：" class="headerlink" title="微分方程："></a>微分方程：</h2><h5 id="常微分方程："><a href="#常微分方程：" class="headerlink" title="常微分方程："></a>常微分方程：</h5><p>定义：</p><script type="math/tex; mode=display">f(y,\frac{dy}{dx},\frac{d^2y}{dx^2},...,\frac{d^ny}{dx^n})=0</script><h6 id="常系数线性微分方程："><a href="#常系数线性微分方程：" class="headerlink" title="常系数线性微分方程："></a>常系数线性微分方程：</h6><script type="math/tex; mode=display">\frac{d^ny}{dx^n}+a_1\frac{d^{n-1}y}{dx^{n-1}}+a_2\frac{d^{n-2}y}{dx^{n-2}}+...+a_ny=0</script><p>解一阶线性常微分方程：</p><script type="math/tex; mode=display">对\frac{dy}{dx}+p(x)y+q(x)=0\\通解:y=C(x)e^{-\int p(x){\rm d}x}</script><p>代回原式可解</p><p>解二阶常系数齐次微分方程：</p><script type="math/tex; mode=display">对y^{''}+py^{'}+qy=0\\通解:y=c_1y_1+c_2y_2\\特征方程:r^2+pr+q=0\\若r_1=r_2\\则y=(C_1+C_2x)e^{rx}\\若r1\neq r2\\则y=C_1e^{r_1x}+C_2e^{r_2x}\\若为共轭复数根\\则y=e^{\alpha x}(C_1cos(\beta x)+C_2sin(\beta x)),其中r=\alpha \pm \beta i</script>]]></content>
+        <content type="html"><![CDATA[<p>当碰撞介于完全弹性碰撞与完全非弹性碰撞之间时</p><p>引入恢复系数：</p><script type="math/tex; mode=display">e=\cfrac{v_2-v_1}{v_{10}-v_{20}}</script><p>复摆：</p><script type="math/tex; mode=display">\omega =\sqrt{\frac{mgh}{J}}</script><p>​    其中J为转动惯量，h为质心到复摆转轴的距离</p>]]></content>
       
       
       
