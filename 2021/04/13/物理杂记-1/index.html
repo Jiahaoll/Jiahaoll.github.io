@@ -13,7 +13,9 @@
     <meta name="description" content="当碰撞介于完全弹性碰撞与完全非弹性碰撞之间时
 引入恢复系数：
 
-e=\cfrac{v_2-v_1}{v_{10}-v_{20}}"> 
+e=\cfrac{v_2-v_1}{v_{10}-v_{20}}复摆：
+
+\omega =\sqrt{\frac{mgh}{J}}​ ,"> 
     <meta name="author" content="Grampus"> 
     <link rel="alternative" href="atom.xml" title="垆边人似月" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
@@ -74,9 +76,12 @@ e=\cfrac{v_2-v_1}{v_{10}-v_{20}}">
             <p>当碰撞介于完全弹性碰撞与完全非弹性碰撞之间时</p>
 <p>引入恢复系数：</p>
 <script type="math/tex; mode=display">
-e=\cfrac{v_2-v_1}{v_{10}-v_{20}}</script>
+e=\cfrac{v_2-v_1}{v_{10}-v_{20}}</script><p>复摆：</p>
+<script type="math/tex; mode=display">
+\omega =\sqrt{\frac{mgh}{J}}</script><p>​    其中J为转动惯量，h为质心到复摆转轴的距离</p>
+
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
                 <source type="audio/mpeg" src="">
             </audio>
             
@@ -221,6 +226,25 @@ e=\cfrac{v_2-v_1}{v_{10}-v_{20}}</script>
 </div>
 
 
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 
 
