@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title></title>
-      <link href="2021/05/02/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%EF%BC%9A/"/>
-      <url>2021/05/02/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%EF%BC%9A/</url>
-      
-        <content type="html"><![CDATA[<h2 id="微分方程："><a href="#微分方程：" class="headerlink" title="微分方程："></a>微分方程：</h2><h5 id="常微分方程："><a href="#常微分方程：" class="headerlink" title="常微分方程："></a>常微分方程：</h5><p>定义：</p><script type="math/tex; mode=display">f(y,\frac{dy}{dx},\frac{d^2y}{dx^2},...,\frac{d^ny}{dx^n})=0</script><h6 id="常系数线性微分方程："><a href="#常系数线性微分方程：" class="headerlink" title="常系数线性微分方程："></a>常系数线性微分方程：</h6><script type="math/tex; mode=display">\frac{d^ny}{dx^n}+a_1\frac{d^{n-1}y}{dx^{n-1}}+a_2\frac{d^{n-2}y}{dx^{n-2}}+...+a_ny=0</script><p>解一阶线性常微分方程：</p><script type="math/tex; mode=display">对\frac{dy}{dx}+p(x)y+q(x)=0\\通解:y=C(x)e^{-\int p(x){\rm d}x}</script><p>代回原式可解</p><p>解二阶常系数齐次微分方程：</p><script type="math/tex; mode=display">对y^{''}+py^{'}+qy=0\\通解:y=c_1y_1+c_2y_2\\特征方程:r^2+pr+q=0\\若r_1=r_2\\则y=(C_1+C_2x)e^{rx}\\若r1\neq r2\\则y=C_1e^{r_1x}+C_2e^{r_2x}\\若为共轭复数根\\则y=e^{\alpha x}(C_1cos(\beta x)+C_2sin(\beta x)),其中r=\alpha \pm \beta i</script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>物理杂记</title>
       <link href="2021/04/13/%E7%89%A9%E7%90%86%E6%9D%82%E8%AE%B0-1/"/>
       <url>2021/04/13/%E7%89%A9%E7%90%86%E6%9D%82%E8%AE%B0-1/</url>
@@ -36,26 +23,38 @@
     
     
     <entry>
-      <title></title>
-      <link href="2021/04/06/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA%EF%BC%9A/"/>
-      <url>2021/04/06/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA%EF%BC%9A/</url>
+      <title>狭义相对论</title>
+      <link href="2021/04/13/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA1/"/>
+      <url>2021/04/13/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA1/</url>
       
         <content type="html"><![CDATA[<h5 id="狭义相对论："><a href="#狭义相对论：" class="headerlink" title="狭义相对论："></a>狭义相对论：</h5><p>变化公式：</p><script type="math/tex; mode=display">x = Dx'+Et'\\t = Fx'+Gt'</script><p>有</p><script type="math/tex; mode=display">vt = D(0)+Et'\\t = F(0)+Gt'</script><p>可导出 </p><script type="math/tex; mode=display">v= E/G</script><p>引入正向光束: </p><script type="math/tex; mode=display">x = ct \\x' = ct'</script><p>代入变化公式，可得</p><script type="math/tex; mode=display">ct = (Dc+E)t'\\t = (Fc+G)t'</script><p>相除得 </p><script type="math/tex; mode=display">c = (Dc+E)/(Fc+G)</script><p>整理得 </p><script type="math/tex; mode=display">Fc^2+(G-D)c-E=0</script><p>反向光束同理可得 </p><script type="math/tex; mode=display">-Fc^2+(G-D)c+E=0</script><p>相比可得</p><script type="math/tex; mode=display">Fc^2=E \\ D=G</script><p>位置经二次变化后不变，可得</p><script type="math/tex; mode=display">DG-EF=1（数学证明？）</script><p>最终解得</p><script type="math/tex; mode=display">\begin{cases}D = \cfrac{1}{\sqrt{1-\cfrac{v^2}{c^2}}}\\G = \cfrac{1}{\sqrt{1-\cfrac{v^2}{c^2}}}\\F = \cfrac { \cfrac {v}{c}}{ \sqrt {c^2-v^2}}\\E = \cfrac {v} {\sqrt {1- \cfrac {v^2}{c^2}}}\end{cases}</script><p>记作矩阵形式：</p><script type="math/tex; mode=display">\begin{pmatrix} x \\ t \end{pmatrix}=\begin{pmatrix}D \  E\\F \ G\end{pmatrix}\begin{pmatrix}x' \\ t'\end{pmatrix}</script>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> S </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title></title>
-      <link href="2021/03/08/%E8%BF%91%E4%B8%96%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%96%87%E5%8C%96/"/>
-      <url>2021/03/08/%E8%BF%91%E4%B8%96%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%96%87%E5%8C%96/</url>
+      <title>微分方程</title>
+      <link href="2021/04/13/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B1/"/>
+      <url>2021/04/13/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B1/</url>
       
-        <content type="html"><![CDATA[<ul><li><h2 id="天命与礼乐"><a href="#天命与礼乐" class="headerlink" title="天命与礼乐"></a>天命与礼乐</h2><h3 id="神鼎"><a href="#神鼎" class="headerlink" title="神鼎"></a>神鼎</h3><p>广泛性、象征性、神圣性、合法性、可变性</p><p>鼎迁=&gt;革命；问鼎</p><h3 id="轴心突破"><a href="#轴心突破" class="headerlink" title="轴心突破"></a>轴心突破</h3><p>对“道”的追求—宋明理学—得道</p><p>道义高于皇权</p><p>对道义的追求，超脱了个人崇拜</p><p>追求“天人合一”</p><p>文明中脱离日常生活的特点（怪怪的？）</p><p>以巫师、神官等为媒介（印度：勿cue），对通灵、灵媒的强调，达到政教合一的情况</p><p>但中国很早便告别了这种状态，西周便已不强调，更强调仪式（生活要有仪式感。。错乱）</p><p>（联想：万历十五年中申时行强调经筵，强调礼仪道德，知晓大同之治来源于道德感）</p><p><img src="C:\Users\Vollmond\AppData\Roaming\Typora\typora-user-images\image-20210308184958136.png" alt="image-20210308184958136"></p></li><li><h2 id="集权与统一"><a href="#集权与统一" class="headerlink" title="集权与统一"></a>集权与统一</h2><p>（秦朝完成）</p><p>秦生“皇帝”一词，一统度量衡，统一文字，从此中国大部分时间得以统一</p></li><li><h2 id="合法性的寻求"><a href="#合法性的寻求" class="headerlink" title="合法性的寻求"></a>合法性的寻求</h2><p>（汉代完成）</p><p>“天地之大德曰生，圣人之大宝曰位。何以守位？曰仁。何以聚人？曰财。理财正辞，禁民为非，曰义”——《周易》</p><p>仁：恻隐之心</p><p>“天人感应”论——董仲舒</p><h6 id="行德、教化、学校、荐举-实现长治久安"><a href="#行德、教化、学校、荐举-实现长治久安" class="headerlink" title="行德、教化、学校、荐举    实现长治久安"></a>行德、教化、学校、荐举    实现长治久安</h6><h6 id="后果："><a href="#后果：" class="headerlink" title="后果："></a>后果：</h6><p>对统治者道德要求高，在管理层扩大后难以达成共识（对道德保留基础要求的、不顾道德要求的、有极高道德追求的）</p><p>可由今日中国对公众人物道德要求极高的强烈诉求可见</p><p>（联想：张居正死后被清算）</p></li><li><h2 id="古代中国的演进动力"><a href="#古代中国的演进动力" class="headerlink" title="古代中国的演进动力"></a>古代中国的演进动力</h2><p>政治经济模式的成熟与拓展</p></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="微分方程："><a href="#微分方程：" class="headerlink" title="微分方程："></a>微分方程：</h2><h5 id="常微分方程："><a href="#常微分方程：" class="headerlink" title="常微分方程："></a>常微分方程：</h5><p>定义：</p><script type="math/tex; mode=display">f(y,\frac{dy}{dx},\frac{d^2y}{dx^2},...,\frac{d^ny}{dx^n})=0</script><h6 id="常系数线性微分方程："><a href="#常系数线性微分方程：" class="headerlink" title="常系数线性微分方程："></a>常系数线性微分方程：</h6><script type="math/tex; mode=display">\frac{d^ny}{dx^n}+a_1\frac{d^{n-1}y}{dx^{n-1}}+a_2\frac{d^{n-2}y}{dx^{n-2}}+...+a_ny=0</script><p>解一阶线性常微分方程：</p><script type="math/tex; mode=display">对\frac{dy}{dx}+p(x)y+q(x)=0\\通解:y=C(x)e^{-\int p(x){\rm d}x}</script><p>代回原式可解</p><p>解二阶常系数齐次微分方程：</p><script type="math/tex; mode=display">对y^{''}+py^{'}+qy=0\\通解:y=c_1y_1+c_2y_2\\特征方程:r^2+pr+q=0\\若r_1=r_2\\则y=(C_1+C_2x)e^{rx}\\若r1\neq r2\\则y=C_1e^{r_1x}+C_2e^{r_2x}\\若为共轭复数根\\则y=e^{\alpha x}(C_1cos(\beta x)+C_2sin(\beta x)),其中r=\alpha \pm \beta i</script>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> S </tag>
+            
+        </tags>
       
     </entry>
     
