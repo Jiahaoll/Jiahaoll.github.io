@@ -11,10 +11,10 @@
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="Fechin,"> 
     <meta name="description" content="电路理论杂记，就随便写写。
-KCL，KVL还有啥回路电流，节点电压之类的我就摸了，用烂了
-运放就把虚短和虚断条件用上后就可以撤了，留着影响输出
-特勒根定理：
-\sum_{k=1}^{b} u_k(t,"> 
+方程书写方面KCL，KVL还有啥回路电流，节点电压之类的我就摸了，用烂了
+我错了qaq（刚说完就被制裁了）
+补充一下吧，个人对节点电压回路电流这些的理解
+节点电压：节点电,"> 
     <meta name="author" content="Grampus"> 
     <link rel="alternative" href="atom.xml" title="垆边人似月" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
@@ -73,10 +73,20 @@ KCL，KVL还有啥回路电流，节点电压之类的我就摸了，用烂了
         </div>
         <div class="content markdown">
             <h1 id="电路理论"><a href="#电路理论" class="headerlink" title="电路理论"></a>电路理论</h1><p>杂记，就随便写写。</p>
-<p>KCL，KVL还有啥回路电流，节点电压之类的我就摸了，用烂了</p>
+<h2 id="方程书写方面"><a href="#方程书写方面" class="headerlink" title="方程书写方面"></a>方程书写方面</h2><p>KCL，KVL还有啥回路电流，节点电压之类的我就摸了，用烂了</p>
+<p>我错了qaq（刚说完就被制裁了）</p>
+<p>补充一下吧，个人对节点电压回路电流这些的理解</p>
+<h5 id="节点电压："><a href="#节点电压：" class="headerlink" title="节点电压："></a>节点电压：</h5><p>节点电压本质上是以KCL为核心构建的方程体系，通过每个节点电流出入和为零这一特性列写方程</p>
+<p>记所有流入电流为正，流出电流为负</p>
+<p>因此，对于流出电流，移到等号右边时，应该变为正号</p>
+<p>那么为什么平时支路上具有恒压源时在等式右侧用“流入为正”的写法呢</p>
+<p>实际上，对恒压源，应当理解为“占用”了该支路阻抗上的一部分电压，既然是“占用”，就应当用原电压减去恒压源电压</p>
+<p>既然是一个减去的过程，移动到等式右边就变为正号了，恰好恒压源方向给人以流入电流的感觉</p>
+<p>我个人会在列写支路含恒压源的节点电压方程时用“流入为正”的想法</p>
+<p>回路电流法个人感觉应该没啥问题吧。。。。坐等打脸orz</p>
 <p>运放就把虚短和虚断条件用上后就可以撤了，留着影响输出</p>
-<h5 id="特勒根定理："><a href="#特勒根定理：" class="headerlink" title="特勒根定理："></a>特勒根定理：</h5><script type="math/tex; mode=display">
-\sum_{k=1}^{b} u_k(t)i_k'(t)=\sum_{k=1}^{b} i_k(t)u_k'(t)=0</script><h5 id="回转器："><a href="#回转器：" class="headerlink" title="回转器："></a>回转器：</h5><p>无源元件，能够实现电感电容互换，其端口特性：</p>
+<h4 id="特勒根定理："><a href="#特勒根定理：" class="headerlink" title="特勒根定理："></a>特勒根定理：</h4><script type="math/tex; mode=display">
+\sum_{k=1}^{b} u_k(t)i_k'(t)=\sum_{k=1}^{b} i_k(t)u_k'(t)=0</script><h6 id="回转器："><a href="#回转器：" class="headerlink" title="回转器："></a>回转器：</h6><p>无源元件，能够实现电感电容互换，其端口特性：</p>
 <script type="math/tex; mode=display">
 \begin{pmatrix}
 u_1\\u_2
@@ -86,7 +96,7 @@ u_1\\u_2
 \end{pmatrix}
 \begin{pmatrix}
 i_1\\i_2
-\end{pmatrix}</script><h5 id="Y-△变化："><a href="#Y-△变化：" class="headerlink" title="Y-△变化："></a>Y-△变化：</h5><p>1.Y-&gt;△</p>
+\end{pmatrix}</script><h4 id="Y-△变化："><a href="#Y-△变化：" class="headerlink" title="Y-△变化："></a>Y-△变化：</h4><p>1.Y-&gt;△</p>
 <script type="math/tex; mode=display">
 \begin{cases}
   R_{12}=R_1+R_2+\frac{R_1R_2}{R_3}
