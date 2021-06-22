@@ -10,12 +10,11 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="Fechin,"> 
-    <meta name="description" content="当碰撞介于完全弹性碰撞与完全非弹性碰撞之间时
+    <meta name="description" content="就写写那些我觉得需要记的吧。。。
+1.当碰撞介于完全弹性碰撞与完全非弹性碰撞之间时
 引入恢复系数：
 
-e=\cfrac{v_2-v_1}{v_{10}-v_{20}}复摆：
-
-\omega =\sqrt{\frac{mgh}{J}}​ ,"> 
+e=\cfrac{v_2-v_1}{v_{10}-v_{20}}折合质量（用于求解各种二体运动）,"> 
     <meta name="author" content="Grampus"> 
     <link rel="alternative" href="atom.xml" title="垆边人似月" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
@@ -66,20 +65,63 @@ e=\cfrac{v_2-v_1}{v_{10}-v_{20}}复摆：
     <div class='main'>
         <h1 class="title">物理杂记</h1>
         <div class="stuff">
-            <span>四月 13, 2021</span>
+            <span>六月 21, 2021</span>
             
   <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/S/" rel="tag">S</a></li></ul>
 
 
         </div>
         <div class="content markdown">
-            <p>当碰撞介于完全弹性碰撞与完全非弹性碰撞之间时</p>
+            <p>就写写那些我觉得需要记的吧。。。</p>
+<p>1.当碰撞介于完全弹性碰撞与完全非弹性碰撞之间时</p>
 <p>引入恢复系数：</p>
 <script type="math/tex; mode=display">
-e=\cfrac{v_2-v_1}{v_{10}-v_{20}}</script><p>复摆：</p>
+e=\cfrac{v_2-v_1}{v_{10}-v_{20}}</script><h5 id="折合质量（用于求解各种二体运动）"><a href="#折合质量（用于求解各种二体运动）" class="headerlink" title="折合质量（用于求解各种二体运动）"></a>折合质量（用于求解各种二体运动）</h5><script type="math/tex; mode=display">
+\mu=\frac{m_1m_2}{m_1+m_2}
+\\F=\mu a
+\\其中\mu为折合质量，a为两个物体的相对加速度</script><p>引用折合质量，则碰撞问题中动能损失</p>
 <script type="math/tex; mode=display">
-\omega =\sqrt{\frac{mgh}{J}}</script><p>​    其中J为转动惯量，h为质心到复摆转轴的距离</p>
-
+\delta E_k=\frac{1}{2}\mu(v_{10}-v_{20})^2-\frac{1}{2}\mu(v_2-v_1)^2
+\\也可记作 \delta E_k=\frac{1}{2}(1-e^2)\mu(v_{10}-v_{20})^2</script><p>用折合质量、相对速度的视角去看第一个式子，能量损失变为了单个物体的动能变化，十分漂亮</p>
+<h5 id="复摆："><a href="#复摆：" class="headerlink" title="复摆："></a>复摆：</h5><script type="math/tex; mode=display">
+\omega =\sqrt{\frac{mgh}{J}}</script><p>其中J为转动惯量，h为质心到复摆转轴的距离</p>
+<h5 id="火箭飞行"><a href="#火箭飞行" class="headerlink" title="火箭飞行"></a>火箭飞行</h5><script type="math/tex; mode=display">
+火箭运动方程F=m_0\frac{dv}{dt}+u\frac{dm_0}{dt}
+\\火箭飞行速度v=u\ln(N_1N_2N_3…)</script><h5 id="阻尼振动"><a href="#阻尼振动" class="headerlink" title="阻尼振动"></a>阻尼振动</h5><script type="math/tex; mode=display">
+记粘滞阻力与速度大小成正比：f=\gamma v
+\\则阻尼系数：\beta=\frac{\gamma}{2m},固有圆频率\omega_0=\sqrt{\frac km}
+\\运动学方程：x=A_0e^{-\beta t}cos(\sqrt{\omega_0^2-\beta^2}t+\varphi_0)</script><p>感觉运动学包括刚体力学都差不多。。。除了相对论比较独立，那玩意记公式吧orz</p>
+<h4 id="热力学（做了无数次笔记依旧记不清qaq）"><a href="#热力学（做了无数次笔记依旧记不清qaq）" class="headerlink" title="热力学（做了无数次笔记依旧记不清qaq）"></a>热力学（做了无数次笔记依旧记不清qaq）</h4><script type="math/tex; mode=display">
+理想气体状态方程：pV=nRT
+\\R=8.31J/(mol·K)
+\\p=nkT
+\\n=\frac{N}{V}表示分子数密度，k=\frac{R}{N_A}=1.38\times10^{-23}J/K</script><script type="math/tex; mode=display">
+分子气体平均平动动能与温度关系:\overline{\varepsilon}_t=\frac32kT
+\\ 平均动能：\overline{\varepsilon}=\frac i2kT
+\\理想气体内能：E=N\overline{\varepsilon}</script><p>麦克斯韦速率分布函数：</p>
+<h5 id="最概然速率-位于分布律函数顶点的速度-："><a href="#最概然速率-位于分布律函数顶点的速度-：" class="headerlink" title="最概然速率(位于分布律函数顶点的速度)："></a>最概然速率(位于分布律函数顶点的速度)：</h5><script type="math/tex; mode=display">
+v_p=\sqrt{\frac{2kT}{m}}</script><h5 id="平均速率："><a href="#平均速率：" class="headerlink" title="平均速率："></a>平均速率：</h5><script type="math/tex; mode=display">
+\overline v=\sqrt{\frac{8kT}{\pi m}}</script><h5 id="方均根速率："><a href="#方均根速率：" class="headerlink" title="方均根速率："></a>方均根速率：</h5><script type="math/tex; mode=display">
+\sqrt{\overline{v^2}}=\sqrt{\frac{3kT}m}</script><p>麦克斯韦速度分布：</p>
+<h5 id="分子碰壁频率："><a href="#分子碰壁频率：" class="headerlink" title="分子碰壁频率："></a>分子碰壁频率：</h5><script type="math/tex; mode=display">
+n'=\frac14n\overline v</script><h5 id="重力场中粒子分布符合玻尔兹曼统计分布："><a href="#重力场中粒子分布符合玻尔兹曼统计分布：" class="headerlink" title="重力场中粒子分布符合玻尔兹曼统计分布："></a>重力场中粒子分布符合玻尔兹曼统计分布：</h5><script type="math/tex; mode=display">
+n=n_0e^{-\frac{mgh}{kT}}</script><p>热力学第一定律。。。上图！</p>
+<p><img src="https://i.loli.net/2021/06/22/UMWigJOQaDCrkwh.png" alt="image-20210622194616536"></p>
+<p>其中</p>
+<script type="math/tex; mode=display">
+恒容：C_{V,m}=\frac i2R
+\\恒压：C_{p,m}=C_{V,m}+R
+\\ \gamma=\frac{2+i}i
+\\多方：C_{n,m}=\frac{\gamma-n}{1-n}C_{V,m}
+\\其中n待定，等压n=0,等体n=\infty,等温n=1,绝热n=\gamma</script><p>卡诺循环（绝热-等温线）</p>
+<script type="math/tex; mode=display">
+卡诺循环效率：\eta=1-\frac{T_2}{T_1}
+\\制冷系数w=\frac{1}{\eta}-1</script><p>奥托循环（恒容-绝热线）</p>
+<script type="math/tex; mode=display">
+奥托循环效率：\eta=1-r^{1-\gamma}
+\\其中r=\frac{V_1}{V_2}称为压缩比</script><p>熵</p>
+<script type="math/tex; mode=display">
+微分形式：dS=\frac{C_v}{T}·dT+\frac{\nu R}{V}·dV</script>
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
                 <source type="audio/mpeg" src="">
